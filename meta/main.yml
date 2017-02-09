@@ -1,6 +1,8 @@
 ---
 dependencies:
-  - geerlingguy.java
+  - name: geerlingguy.java
+    src: geerlingguy.java
+    when: jenkins_install_java
 
 galaxy_info:
   author: geerlingguy
